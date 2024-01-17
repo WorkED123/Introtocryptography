@@ -75,67 +75,60 @@
  </p1>
 <br>
 
-<h2>Introduction</h2>
 
-<p1>In the realm of cybersecurity, understanding the ethos of hacking and mastering the tools of the trade is pivotal. This lesson propels students into the contrasting worlds of black hat and white hat hackers, alongside an immersive exploration of Kali Linux, a premier platform for ethical hacking. As we delve into the practical and ethical facets of hacking, we also unravel the robust features that make Kali Linux a preferred choice among cybersecurity professionals. <br>
+<h2>1. Historical Background</h2>
+Cryptography, derived from the Greek words 'kryptós' meaning "hidden," and 'gráphein' meaning "to write," is as old as the art of communication itself. Historically, it was employed by leaders and generals to communicate securely with their allies.
 
+<h3><ins>Real-world Example:</ins></h3>
+One of the most ancient known instances is the use of hieroglyphs by the Egyptians. In 1900 BC, an Egyptian scribe used non-standard hieroglyphs in an inscription, perhaps to keep the message secretive.
 
-<h2>1. Unveiling Hacker Ethos</h2>
-<h3><ins>Black Hat Hackers</ins></h3>
+<h2>2. The Basic Concepts</h2>
+
 <ul>
-<li>Dive into the malicious intent behind black hat hacking, exploring real-world scenarios of data breaches, identity theft, and cyber espionage.</li>
-<li>Understand the legal repercussions and the societal impact of malicious hacking activities.</li>
-</ul>
-<h3><ins>White Hat Hackers (Ethical Hackers)</ins></h3>
-<ul>
-<li>Transition into the realm of ethical hacking, where authorized cybersecurity professionals strive to fortify systems and networks against potential threats.</li>
-<li>Explore the ethical guidelines and legal frameworks that govern ethical hacking.</li>
-</ul>
+<li>
+  
+  **Cryptography** - It's the method of protecting information by transforming it into an unreadable format. Only those with a unique key can decode and read it.</li>
 
+<li>
+  
+  **Encryption** - Transforming plain text data into something that appears random.</li>
 
-<h2>2. Kali Linux: A Cybersecurity Arsenal</h2>
-<h3><ins>Introduction to Kali Linux:</ins></h3>
-<ul>
-<li>Uncover the origins and objectives of Kali Linux, a distribution designed for penetration testing, digital forensics, and ethical hacking.</li>
-<li>>Discover the community support and continuous development that keeps Kali Linux at the forefront of cybersecurity tools.</li>
+<li>
+  
+  **Decryption** - This reverse encryption process returns the scrambled data to its original form.</li>
 </ul>
 
-<h3><ins>Navigating Kali Linux:</ins></h3>
-<ul>
-<li>Engage with the Kali Linux environment, navigating its interface, and exploring basic commands essential for penetration testing tasks.</li>
-</ul>
+<h3><ins>Real-world Example:</ins></h3>
+Consider sending a postcard through the mail. Anyone who handles it can read its content. Imagine if you wrote that message in a secret code that only you and the recipient knew. That's the essence of encryption.
 
-<h3><ins>Diving into Tools and Resources:</ins></h3>
-<ul>
-<li>Explore the plethora of tools available in Kali Linux such as Metasploit for penetration testing, Wireshark for network analysis, and Aircrack-ng for wireless network security.</li>
-</ul>
+<h2>3. Basic Cryptographic Techniques</h2>
 
+**Caesar Cipher** - Named after Julius Caesar, who reportedly used it to communicate with his generals. In this technique, each letter in the plaintext is shifted by a fixed number.
 
-<h2>3. Why Kali Linux for Ethical Hacking?</h2>
-<h3>Delve into the attributes that render Kali Linux a preferred choice among ethical hackers:</h3>
-<ul>
-<li>Comprehensive suite of cybersecurity tools.</li>
-  <li>Active community and regular updates.</li>
-  <li>Alignment with cybersecurity standards and practices.</li>
-</ul>
-
-<h3>Explore real-world scenarios where Kali Linux is employed for vulnerability assessments, penetration testing, and digital forensics.</h3>
-
-
-<h2>4. Practical Engagements:</h2>
-<h3><ins>Engage in hands-on exercises that simulate real-world ethical hacking scenarios:</ins></h3>
-<ul>
-<li>Conducting network scans to identify vulnerabilities.</li>
-<li>Employing Metasploit to understand the exploitation process.</li>
-<li>Utilizing Wireshark to analyze network traffic.</li>
-</ul>
+<h3><ins>Real-world Example:</ins></h3>
+If our shift is 3:<br>
+<br>
+A becomes D <br>
+<br>
+B becomes E<br>
+<br>
+C becomes F<br>
+<br>
+... and so on.<br>
+<br>
+"HELLO," encrypted using a Caesar Cipher with a shift of 3 becomes "KHOOR."
 
 
+<h2>4. Importance in Today's World</h2>
+
+In the internet age, with vast amounts of data being transferred every second, cryptography ensures that sensitive information remains confidential. It's not just about secret messages anymore. It's about securing banking transactions, protecting personal data, safeguarding digital identities, and more.
+
+<h3><ins>Real-world Example:</ins></h3>
+When you log into your bank account online or make a purchase, the information sent is encrypted to prevent hackers from stealing your data. Websites with "https" indicate the use of encryption to secure data.
 
 
-<h2>Conclusion</h2>
-<p1>
-</p1>
+<h2>5. Closing Thoughts</h2>
+<p1>We live in a digital age where the importance of data and its protection cannot be stressed enough. Cryptography is the first defense against malicious threats exploiting our personal information. Understanding its principles and methods will become more crucial as we rely heavily on digital platforms.</p1>
 <br>
  
 
@@ -145,9 +138,14 @@
 
 <h2> Hands-On Labs</h2>
 
+<a href="https://youtu.be/jhXCTbFnK8o">Cryptography: Crash Course Computer Science #33</a> - Walkthru of common encryption techniques such as the Advanced Encryption Standard (AES), Diffie-Hellman Key Exchange, and RSA, which are employed to keep your information safe, private, and secure.<br>
+<br>
+<a href="https://youtu.be/-yFZGF8FHSg">The Science of Codes: An Intro to Cryptography</a> - Michael Aranda takes you through a fun and cryptic episode of SciShow, all about codes!<br>
+<br>
+<a href="https://curriculum.code.org/pwc/ayp/8/">Lesson 8: Cybersecurity - Simple Encryption</a> - Students try to crack a message encoded with the classic Caesar cipher and a Random Substitution Cipher.<br>
+
 
  <h2>Additonal Resources</h2>
- <a href="https://www.kali.org/docs/introduction/download-official-kali-linux-images/"> Download Kali Linux </a> <br>
- <br>
- <a href="https://rufus.ie/en/"> Kali Linux Bootable USB </a>
+ <a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography Resources</a> - This page is an attempt to compile some of the top technical crypto and security blogs, textbooks, and websites. It's very much a work in progress.
+ 
  
