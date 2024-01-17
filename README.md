@@ -137,15 +137,13 @@ When you log into your bank account online or make a purchase, the information s
 
 
 <h2> Hands-On Labs</h2>
-
 <a href="https://youtu.be/jhXCTbFnK8o">Cryptography: Crash Course Computer Science #33</a> - Walkthru of common encryption techniques such as the Advanced Encryption Standard (AES), Diffie-Hellman Key Exchange, and RSA, which are employed to keep your information safe, private, and secure.<br>
 <br>
 <a href="https://youtu.be/-yFZGF8FHSg">The Science of Codes: An Intro to Cryptography</a> - Michael Aranda takes you through a fun and cryptic episode of SciShow, all about codes!<br>
 <br>
 <a href="https://curriculum.code.org/pwc/ayp/8/">Lesson 8: Cybersecurity - Simple Encryption</a> - Students try to crack a message encoded with the classic Caesar cipher and a Random Substitution Cipher.<br>
 
-
- <h2>Additonal Resources</h2>
- <a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography Resources</a> - This page is an attempt to compile some of the top technical crypto and security blogs, textbooks, and websites. It's very much a work in progress.
+<h2>Additonal Resources</h2>
+<a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography Resources</a> - This page is an attempt to compile some of the top technical crypto and security blogs, textbooks, and websites. It's very much a work in progress.
  
  
