@@ -49,23 +49,23 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0018	Knowledge of encryption algorithms</li>
+<li>K0018: Knowledge of encryption algorithms</li>
 <br>
-<li>K0019	Knowledge of cryptography and cryptographic key management concepts</li>
+<li>K0019: Knowledge of cryptography and cryptographic key management concepts</li>
 <br>
-<li>K0190	Knowledge of encryption methodologies.</li>
+<li>K0190: Knowledge of encryption methodologies.</li>
 <br>
-<li>K0196	Knowledge of Import/Export Regulations related to cryptography and other security technologies.</li>
+<li>K0196: Knowledge of Import/Export Regulations related to cryptography and other security technologies.</li>
 <br>
-<li>K0305	Knowledge of data concealment (e.g., encryption algorithms and steganography).</li>
+<li>K0305: Knowledge of data concealment (e.g., encryption algorithms and steganography).</li>
 <br>
-<li>K0308	Knowledge of cryptology.</li>
+<li>K0308: Knowledge of cryptology.</li>
 <br>
-<li>K0403	Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations.</li>
+<li>K0403: Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations.</li>
 <br>
-<li>S0138	Skill using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li> 
+<li>S0138: Skill using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li> 
 <br>
-<li>S0164	Skill in assessing the application of cryptographic standards.</li>
+<li>S0164: Skill in assessing the application of cryptographic standards.</li>
 </ul>
 
 
@@ -127,9 +127,29 @@ In the internet age, with vast amounts of data being transferred every second, c
 When you log into your bank account online or make a purchase, the information sent is encrypted to prevent hackers from stealing your data. Websites with "https" indicate the use of encryption to secure data.
 
 
-<h2>5. Closing Thoughts</h2>
+<h2>Conclusion</h2>
 <p1>We live in a digital age where the importance of data and its protection cannot be stressed enough. Cryptography is the first defense against malicious threats exploiting our personal information. Understanding its principles and methods will become more crucial as we rely heavily on digital platforms.</p1>
 <br>
+
+<h2>Definitions</h2>
+<ul>
+<li><b>Cryptography:</b> The practice of securing information through techniques that transform readable data into an unreadable format to prevent unauthorized access.<br>
+<br>
+
+<li><b>Encryption:</b> The process of converting plaintext into ciphertext using a cipher to protect the data from unauthorized access.<br>
+<br>
+
+<li><b>Decryption:</b> The process of converting ciphertext back into plaintext using a cipher to retrieve the original, readable information.<br>
+<br>
+
+<li><b>Caesar Cipher:</b> A substitution cipher that shifts each letter in the plaintext by a fixed number of places down the alphabet.<br>
+<br>
+
+<li><b>Cipher:</b> An algorithm or method used to encrypt or decrypt data, transforming plaintext into ciphertext and vice versa.<br>
+<br>
+
+<li><b>Plaintext:</b> The original, unencrypted data or message that is readable and intended to be protected through encryption.
+</ul>
  
 
 
@@ -142,6 +162,8 @@ When you log into your bank account online or make a purchase, the information s
 <a href="https://youtu.be/-yFZGF8FHSg">The Science of Codes: An Intro to Cryptography</a> - Michael Aranda takes you through a fun and cryptic episode of SciShow, all about codes!<br>
 <br>
 <a href="https://curriculum.code.org/pwc/ayp/8/">Lesson 8: Cybersecurity - Simple Encryption</a> - Students try to crack a message encoded with the classic Caesar cipher and a Random Substitution Cipher.<br>
+
+<h2>Games</h2>
 
 <h2>Additonal Resources</h2>
 <a href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography Resources</a> - This page is an attempt to compile some of the top technical crypto and security blogs, textbooks, and websites. It's very much a work in progress.
